@@ -107,7 +107,7 @@ Complete the exercise in the space below:
 const maxOfThree = (num1, num2, num3) => {
   if (num1 > num2 && num1 > num3) {
     return num1;
-  } else if (num2 > num1 && num 2 > num3) {
+  } else if (num2 > num1 && num2 > num3) {
     return num2;
   } else {
     return num3;
@@ -241,7 +241,7 @@ Complete the exercise in the space below:
 
 const createUsername = (firstName, lastName) => {
   const charCount = firstName.length + lastName.length;
-  return `${firstName.slice(0,3}${lastName.slice(0,3}${charCount}`;
+  return `${firstName.slice(0,3}${lastName.slice(0,3)}${charCount}`;
 };
 
 console.log("Exercise 11 Result:", createUsername("Samantha", "Green"));
