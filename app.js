@@ -149,7 +149,7 @@ Complete the exercise in the space below:
 const convertTemperature = (temp, scale) => {
   if (scale === "C") {
     temp = temp * (9 / 5) + 32;
-    return `${temp} (Farenheit)`;
+    return `${temp} (Fahrenheit)`;
   } else {
     temp = (temp - 32) * (5 / 9);
     return `${temp} (Celsius)`;
@@ -179,7 +179,7 @@ function basicCalculator(num1, num2, operation) {
       return num1 + num2;
     case "subtract":
       return num1 - num2;
-    case "multipy":
+    case "multiply":
       return num1 * num2;
     case "divide":
       if (num2 == 0) {
@@ -241,7 +241,7 @@ Complete the exercise in the space below:
 
 const createUsername = (firstName, lastName) => {
   const charCount = firstName.length + lastName.length;
-  return `${firstName}${lastName}${charCount}`;
+  return `${firstName.slice(0,3}${lastName.slice(0,3}${charCount}`;
 };
 
 console.log("Exercise 11 Result:", createUsername("Samantha", "Green"));
