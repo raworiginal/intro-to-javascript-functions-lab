@@ -28,7 +28,7 @@ Example: isAdult(21) should return 'Adult'.
 Complete the exercise in the space below:
 */
 const isAdult = (age) => {
-  if (age >= 21) {
+  if (age >= 18) {
     return "Adult";
   } else {
     return "Minor";
