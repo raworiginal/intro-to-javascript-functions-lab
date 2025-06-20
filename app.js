@@ -241,7 +241,7 @@ Complete the exercise in the space below:
 
 const createUsername = (firstName, lastName) => {
   const charCount = firstName.length + lastName.length;
-  return `${firstName.slice(0,3}${lastName.slice(0,3)}${charCount}`;
+  return `${firstName.slice(0,3)}${lastName.slice(0,3)}${charCount}`;
 };
 
 console.log("Exercise 11 Result:", createUsername("Samantha", "Green"));
